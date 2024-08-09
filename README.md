@@ -44,9 +44,32 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
          !python train.py --data data.yaml --weights yolov5s.pt --batch-size 8 --name Model --img 640 --epochs 150
 
    
-4. Model retraining : If you are not satisfied with the model performance retrain it but insted of using yolov5.pt use best.pt weights, which is saved in runs/model/train.
-         python export.py --weights runs/train/Model/weights/best.pt --include onnx --simplify --opset 12
-6.    
+4. Model retraining : If you are not satisfied with the model performance retrain it but insted of using yolov5s.pt use best.pt weights, which is saved in runs/model/train.
+
+   !python export.py --weights runs/train/Model/weights/best.pt --include onnx --simplify --opset 12
+
+   
+5. Export Model into ONNX : best.onnx we will use it in prediction section to run inferences
+
+   !python export.py --weights runs/train/Model/weights/best.pt --include onnx --simplify --opset 12
+
+
+
+### description : Running Predictions on images or video file or live stream  from any IP cameras
+
+1. Load YAML
+2. Load YOLO
+3. load the image
+4. Get the YOLO prediction from images
+5. Non- Maximum supression
+6. Bounding Boxes
+   
+
+### Description : Running this yolo app on streamlit to get inferences( i plan to work on it in near future)   
+
+   
+
+       
    
             
 
