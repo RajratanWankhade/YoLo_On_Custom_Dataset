@@ -39,6 +39,8 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
 1. Traing Yolo model on Google colab
    ```bash
    https://colab.research.google.com/drive/1ksBl-Br13-nBXkIpk_UnjNLgXo0bMIxA?usp=sharing
+
+2. Entire   
    
             
 
@@ -50,7 +52,9 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
    ```bash
    git clone https://github.com/RajratanWankhade/YoLo_On_Custom_Dataset.git
 
-2.    
+2. Enitre Project Link
+```bash
+https://drive.google.com/drive/folders/1fUHOf7SP5QpjpiuxO2jO8J6Pek2bmQxS?usp=sharing   
 
 
 
