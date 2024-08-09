@@ -55,25 +55,25 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
 
 
 
-### description : Running Predictions on images or video file or live stream  from any IP cameras
+## description : Running Predictions on images or video file or live stream  from any IP cameras
 
-#### each steps got converted into one single file .py but for understanding go through ipynb file. 
+### Each step got bundled into one single file(thats the beauty of Classes and Functions in Python) .py but for understanding go through ipynb file. 
 1. Load YAML
 2. Load YOLO
 3. load the image
 4. Get the YOLO prediction from images
-5. Non- Maximum supression
-6. Bounding Boxes
+5. Non- Maximum supression : You can work without using non max supression but results will look terrible. Beauty of non maximum supression is, it filter out number of bounding boxes, confidence scores so we could focus more on accuracy.
+6. Bounding Boxes : Here decorations around bounding box happens. 
    
 
-### Description : Defveloping web app for this yolo model( i plan to work on it in near future)
+## Description : Defveloping web app for this yolo model( i plan to work on it in near future)
 
 
-#### Stay Tune
+### Stay Tune
 
    
 
-       
+## Results       
    
             
 
