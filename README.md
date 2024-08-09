@@ -65,7 +65,10 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
 6. Bounding Boxes
    
 
-### Description : Running this yolo app on streamlit to get inferences( i plan to work on it in near future)   
+### Description : Defveloping web app for this yolo model( i plan to work on it in near future)
+
+
+#### Stay Tune
 
    
 
