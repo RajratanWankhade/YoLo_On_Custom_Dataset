@@ -63,7 +63,12 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
 3. load the image
 4. Get the YOLO prediction from images
 5. Non- Maximum supression : You can work without using non max supression but results will look terrible. Beauty of non maximum supression is, it filter out number of bounding boxes, confidence scores so we could focus more on accuracy.
-6. Bounding Boxes : Here decorations around bounding box happens. 
+6. Bounding Boxes : Here decorations around bounding box happens.
+   ```bash
+   https://github.com/RajratanWankhade/YoLo_On_Custom_Dataset/blob/master/2_Predictions/yolo_predictions.py
+
+
+   
    
 
 ## Description : Defveloping web app for this yolo model( i plan to work on it in near future)
