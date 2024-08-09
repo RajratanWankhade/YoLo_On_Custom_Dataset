@@ -23,11 +23,7 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
 
 
 
-Confusion Matrix
 
-
-
-![confusion_matrix](https://github.com/user-attachments/assets/9502cd22-76fd-4686-8cdb-78d8d30c0f9d)
 
    
 
@@ -94,10 +90,21 @@ Confusion Matrix
 
 ## Results       
 
+Detected Bottle with 98% accuracy
+![image](https://github.com/user-attachments/assets/09faa90f-b566-4d0e-afc6-7868dc642be0)
+
+
 
    
  Model Performance
  ![image](https://github.com/user-attachments/assets/358efc70-3993-4b3a-837f-f056a7472f8e)
+
+
+
+
+
+ Confusion Matrix
+![confusion_matrix](https://github.com/user-attachments/assets/9502cd22-76fd-4686-8cdb-78d8d30c0f9d)
 
 
  
