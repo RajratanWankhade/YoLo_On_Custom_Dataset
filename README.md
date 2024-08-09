@@ -57,6 +57,7 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
 
 ### description : Running Predictions on images or video file or live stream  from any IP cameras
 
+#### each steps got converted into one single file .py but for understanding go through ipynb file. 
 1. Load YAML
 2. Load YOLO
 3. load the image
