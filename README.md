@@ -17,6 +17,8 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
 
    ![image](https://github.com/user-attachments/assets/8143a78f-678f-4e93-8e42-30ade68f0c44)
 
+
+2. Split Images into Train and test
             
 
  
