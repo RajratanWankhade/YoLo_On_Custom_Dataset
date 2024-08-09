@@ -19,6 +19,16 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
 
 
 2. Split Images into Train and test
+
+3. Label Encoding of Objects
+   Its nothing but assigning the numbers into objects. car: 01, Bat: 02
+
+4. Creating Train and Test Folder accodring to Yolo requirement
+![1_XupA8TGTSGdZdjsrs16hkw](https://github.com/user-attachments/assets/37b423ab-fcbe-4888-ae95-6d925fdd0630)
+
+
+
+   
             
 
  
