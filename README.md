@@ -6,7 +6,7 @@ This project implements the YOLO (You Only Look Once) algorithm for object detec
    ```bash
    https://github.com/RajratanWankhade/YoLo_On_Custom_Dataset/blob/master/1_datapreparation/01_extract_object_info_xml.ipynb
 
-The dataset we have labelled in xml format, we need to convert in into Yolo compatible format i.e. class id, centerx, centery, width, Height but before that we preprocess xml data by converting into pandas framework so further insight could be possible on these datasets.
+We have a dataset labeled in XML format that needs to be converted into YOLO-compatible format, specifically with fields for class ID, center x, center y, width, and height. Before performing the conversion, we'll preprocess the XML data by loading it into a Pandas DataFrame to enable further analysis and gain deeper insights into the dataset.
             A. Get List of XML file in python
             B. Read and Extract label data from XML format
             C. Convert labels into Pandas
