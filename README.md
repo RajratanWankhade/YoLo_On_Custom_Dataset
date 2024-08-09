@@ -1,6 +1,6 @@
 # YoLo on Custom Dataset
 
-## Description
+## Description : Preprocessing step
 This project implements the YOLO (You Only Look Once) algorithm for object detection on a custom dataset. 
 1. Preprocessing of Data
    ```bash
@@ -33,6 +33,12 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
 
 
 
+
+## Description: YOLO Model Training 
+
+1. Traing Yolo model on Google colab
+   ```bash
+   https://colab.research.google.com/drive/1ksBl-Br13-nBXkIpk_UnjNLgXo0bMIxA?usp=sharing
    
             
 
