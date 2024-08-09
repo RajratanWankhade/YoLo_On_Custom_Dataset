@@ -40,7 +40,13 @@ We have a dataset labeled in XML format that needs to be converted into YOLO-com
    ```bash
    https://colab.research.google.com/drive/1ksBl-Br13-nBXkIpk_UnjNLgXo0bMIxA?usp=sharing
 
-2. Entire   
+2. Saving Models weights into best.pt file in a yolo directory folder
+         !python train.py --data data.yaml --weights yolov5s.pt --batch-size 8 --name Model --img 640 --epochs 150
+
+   
+4. Model retraining : If you are not satisfied with the model performance retrain it but insted of using yolov5.pt use best.pt weights, which is saved in runs/model/train.
+         python export.py --weights runs/train/Model/weights/best.pt --include onnx --simplify --opset 12
+6.    
    
             
 
@@ -58,10 +64,3 @@ https://drive.google.com/drive/folders/1fUHOf7SP5QpjpiuxO2jO8J6Pek2bmQxS?usp=sha
 
 
 
-## Navigate to the project directory
-cd YoLo_On_Custom_Dataset
-
-## Create a virtual environment and activate it:
-
-
-## Install the required packages:
