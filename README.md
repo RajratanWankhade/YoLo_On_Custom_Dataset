@@ -1,7 +1,8 @@
 # YoLo on Custom Dataset
 
 ## Description
-This project implements the YOLO (You Only Look Once) algorithm for object detection on a custom dataset. The goal is to achieve real-time object detection with high accuracy on a dataset of your choice.
+This project implements the YOLO (You Only Look Once) algorithm for object detection on a custom dataset. 
+We Used Dataset which was labelled in xml format 
 
 ## Installation
 1. Clone the repository:
